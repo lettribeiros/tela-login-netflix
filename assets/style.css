@@ -76,7 +76,7 @@ body::before {
     height: 50px;
     width: 100%;
     color: #fff;
-    background-color: #e50914;
+    background-color: #e50914c7;
     border-radius: 3px;
     font-weight: bold;
     font-size: 16px;
@@ -85,7 +85,7 @@ body::before {
 }
 
 .login_body button:hover {
-    background-color: #fc1722;
+    background-color: #e50914;
     cursor: pointer;
 }
 
@@ -136,6 +136,10 @@ body::before {
 .login_facebook span a {
     text-decoration: none;
     color: #737373;
+}
+
+.login_facebook span a:hover {
+    text-decoration: underline;
 }
 
 .sing_up {
